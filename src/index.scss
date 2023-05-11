@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import './styles/mixins';
+@import './styles/variable';
+@import './commons/Navigation/navigation.scss';
+@import './commons/Footer/footer.scss';
+@import './pages/Articles/article.scss';
+@import './pages/About/about.scss';
+@import './pages/Landing/landing.scss';
+@import './App.scss';
+
+
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: $primary-color;
+    color: $default-text;
+}

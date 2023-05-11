@@ -1,0 +1,13 @@
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: antiquewhite;
+    position: fixed;
+
+    p {
+        flex: auto;
+    }
+}

@@ -1,0 +1,70 @@
+.aboutme-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 60%;
+    height: 80vh;
+    padding: 20px;
+    margin-left: 20%;
+
+    h3 {
+        position: relative;
+        display: flex;
+        width: 100%;
+        color: #807070;
+        font-size: 32px;
+        align-items: center;
+        margin: 10px 0px 40px;
+        
+    }
+
+    h3::after {
+        content:"";
+        display: block;
+        height: 1px;
+        width: 200px;
+        position: relative;
+        top: -5px;
+        background-color: orangered;
+        margin-left: 20px;
+    }
+
+    .about-content {
+        display: flex;
+        flex-direction: row;
+
+        .about-text-container {
+            display: flex;
+            flex-direction: column;
+            width: 60%;
+
+            div {
+                p {
+                    color: #D2D2D2;
+                    font-size: 20px;
+                    margin-bottom: 10px;
+                }
+            }
+            
+            .about-skill {
+                justify-content: space-evenly;
+                flex-flow: column;
+                margin-top: 15px;
+                li::before {
+                    content: "|> ";
+                }
+            }
+        }
+        .about-image-container {
+            img {
+                width: 50%;
+                height: 60%;
+            }
+            width: 40%;
+            margin-left: 60px;
+
+    
+        }
+        
+    }
+}
