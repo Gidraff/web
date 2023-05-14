@@ -21,10 +21,12 @@
 
     p::before {
         content: "{- ";
+        color: #FF554D;
     }
 
     p::after {
         content: " -}";
+        color: #FF554D;
     }
     .nav-links {
         list-style: none;

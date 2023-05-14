@@ -1,0 +1,22 @@
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 20%;
+    list-style-type: none;
+    
+    .experience-item {
+        margin-right: 10px;
+        color: #807070;
+        border-bottom: 2px white solid;
+    }
+
+    .experience-item::after {
+        content: ".";
+        color:#FF554D;
+    }
+
+    .experience-item:hover {
+        border-bottom: 2px #FF554D solid;
+    }
+}
