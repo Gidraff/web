@@ -17,7 +17,7 @@ const Navigation = () => {
                     <HashLink smooth to={'#articles'}>Article.</HashLink>
                 </li>
                 <li className="nav-item">
-                    <HashLink smooth to={'#contact'}>Contacts.</HashLink>
+                    <HashLink smooth to={'#contact'}>Contact.</HashLink>
                 </li>
                 <li className="nav-item">
                     <HashLink smooth to={'#resume'}>Resume.</HashLink>

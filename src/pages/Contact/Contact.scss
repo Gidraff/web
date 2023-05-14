@@ -1,0 +1,36 @@
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100vh;
+    margin-left: 25%;
+    padding: 150px 0px;
+    text-align: center;
+    align-items: center;
+
+    .contact-header {
+        padding: 10px 0px;
+        // align-items: center;
+        h2 {
+            font-size: 28px;
+            color: #807070;
+        }
+    }
+
+    .info-container {
+        margin-bottom: 20px;
+        p {
+            padding: 5px 0px;
+        }
+    }
+    .button-container {
+        margin-top: 20px;
+        width: 20%;
+        text-align: center;
+        padding: 10px 0;
+        // font-size: 22px;
+        border: 1px #FF554D solid;
+        color: #FF554D;
+        border-radius: 4px;
+    }
+}
