@@ -1,5 +1,9 @@
 # Personal Websitie
 
+## Requirements
+
+This project uses node v20.11.1 as runtime.
+
 ## Available Scripts
 
 In the project directory, you can run:
