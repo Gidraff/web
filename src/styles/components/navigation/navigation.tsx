@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
+import { Link } from "react-router-dom";
 
 
 function Navbar() {
@@ -8,10 +9,10 @@ function Navbar() {
         <div className="header">
             <div className="navbar">
                 <ul className="nav-list">
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Projects</li>
-                    <li>Contact</li>
+                    <li><Link to="/">Home</Link></li>
+                    <li><Link to="/about">About</Link></li>
+                    <li><Link to="/projects">Projects</Link></li>
+                    <li><Link to="/articles">Articles</Link></li>
                 </ul>
             </div>
         </div>
@@ -50,10 +51,10 @@ export default function HambergerMenu() {
                     {isMenuOpen && (
                         <div className="navbar-dropdown">
                             <ul className="nav-list">
-                                <li>Home</li>
-                                <li>About</li>
-                                <li>Projects</li>
-                                <li>Contact</li>
+                                <li><Link to="/">Home</Link></li>
+                                <li><Link to="/about">About</Link></li>
+                                <li><Link to="/projects">Projects</Link></li>
+                                <li><Link to="/articles">Articles</Link></li>
                             </ul>
                         </div>
                     )}
