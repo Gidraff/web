@@ -1,6 +1,5 @@
 import React from 'react';
 
-import './App.css';
 import LandingPage from './pages/Landing/Landing';
 import { Route, Routes } from 'react-router-dom';
 import { ThemeProvider } from 'styled-components';
